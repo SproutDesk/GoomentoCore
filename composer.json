@@ -23,7 +23,14 @@
         }
     },
     "require": {
-        "magento/framework": "~102.0.0||~103.0.0"
+        "magento/framework": "~102.0.0||~103.0.0",
+        "laminas/laminas-dependency-plugin": "^2.1",
+        "laminas/laminas-json": "^3.5.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "laminas/laminas-dependency-plugin": true
+        }
     },
     "minimum-stability": "dev"
 }
