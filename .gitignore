@@ -21,3 +21,5 @@ Thumbs.db
 *.map
 .sass-cache
 build
+/vendor/
+/composer.lock
